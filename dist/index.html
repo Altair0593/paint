@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Paint</title>
+<link href="index.css" rel="stylesheet"></head>
+<body>
+  <main class="container">
+    <div>
+      <label for="inputColor">Change color</label>
+      <input type="color" id="inputColor">
+      <label for="inputRange">Change width</label>
+      <div>
+        <span>1</span>
+        <input type="range" id="inputRange" min="1" max="20" value="10" step="1">
+        <span>20</span>
+      </div>
+
+
+    </div>
+    <div class="canvas-container">
+      <canvas id="main-canvas" width="1000" height="500" class="canvas">
+      </canvas>
+    </div>
+    <div class="coordinates">
+      <span id="xValue" class="coordinates__value">0 px</span>
+      <span id="yValue" class="coordinates__value">0 px</span>
+    </div>
+    <button type="button" id="sendBtn">SEND</button>
+  </main>
+<script type="text/javascript" src="index.js"></script></body>
+</html>

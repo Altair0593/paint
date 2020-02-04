@@ -1,0 +1,10 @@
+.container {
+  height: 100vh;
+  display: flex;
+}
+.canvas {
+  border: 1px solid #000000;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvc3R5bGUvaW5kZXgubGVzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsImZpbGUiOiJpbmRleC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGFpbmVyIHtcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgZGlzcGxheTogZmxleDtcbn1cbi5jYW52YXMge1xuICBib3JkZXI6IDFweCBzb2xpZCAjMDAwMDAwO1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ==*/
